@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-fullscreen-xml" version="0.0.1"
+  xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>cordova-plugin-fullscreen-xml</name>
+  <description>Set Cordova App fullscreen in all android versions with just xml config</description>
+  <keyword>cordova,android,fullscreen</keyword>
+  <platform name="android">
+    <resource-file src="styles.xml" target="res/values-v28/styles.xml" />
+    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
+      <application android:resizeableActivity="false" />
+    </edit-config>
+    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity">
+      <activity android:theme="@style/Full" />
+    </edit-config>
+    <config-file parent="./application" target="AndroidManifest.xml">
+      <meta-data android:name="android.max_aspect" android:value="5.0" />
+    </config-file>
+    <config-file target="res/xml/config.xml" parent="/*">
+      <preference name="FullScreen" value="true" />
+    </config-file>
+  </platform>
+</plugin>

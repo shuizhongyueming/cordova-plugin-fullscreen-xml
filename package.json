@@ -1,0 +1,17 @@
+{
+  "name": "cordova-plugin-fullscreen-xml",
+  "version": "0.0.1",
+  "description": "Set Cordova App fullscreen in all android versions with just xml config",
+  "cordova": {
+    "id": "cordova-plugin-fullscreen-xml",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "shuizhongyueming@gmail.com",
+  "license": "ISC"
+}
