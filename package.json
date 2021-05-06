@@ -10,8 +10,13 @@
   },
   "keywords": [
     "ecosystem:cordova",
-    "cordova-android"
+    "cordova-android",
+    "fullscreen"
   ],
   "author": "shuizhongyueming@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shuizhongyueming/cordova-plugin-fullscreen-xml.git"
+  },
   "license": "ISC"
 }

@@ -1,8 +1,14 @@
 # cordova-plugin-fullscreen-xml
 
-Set Cordova App fullscreen in all android versions with just xml config.
+Set Cordova App fullscreen in all android versions with **just xml config**.
 
-Inspirited by:
+## How to use
+
+```bash
+cordova plugin add cordova-plugin-fullscreen-xml
+```
+
+## Inspirited by:
 
 - https://developer.android.com/guide/topics/display-cutout
 - https://stackoverflow.com/a/56542470/2279763
